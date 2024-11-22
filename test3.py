@@ -16,7 +16,7 @@ from typing import Optional, Self, Type
 set_appearance_mode("System")  # Modes: "System", "Dark", "Light"
 set_default_color_theme("blue")
 
-ENV_FILE = "environ_vars.csv"
+ENV_FILE = "environVars.csv"
 SALT1 = "sd98u9b893hgb09ufb89n120u98sbu-jauisfh9usdgnsf"
 SALT2 = "12b0g9bud8b98sjboi019j98h98b2ugioer8u89dbu0"
 SALTED_STR = SALT1 + ENV_FILE + SALT2

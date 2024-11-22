@@ -89,9 +89,9 @@ def add_env(csv_file: str, variable: str, value: str, revert_to_update: bool = F
 
 if __name__ == "__main__":
     try:
-        add_env("environ_vars.csv", "hello", "False")
+        add_env("environVars.csv", "hello", "False")
     except CSVError as e:
         print(e)
     finally:
-        update_env("environ_vars.csv", "hello", "123")
+        update_env("environVars.csv", "hello", "123")
 
